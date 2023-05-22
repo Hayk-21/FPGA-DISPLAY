@@ -1,0 +1,183 @@
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
+xst -intstyle ise -ifn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.xst" -ofn "C:/Users/User/Documents/FPGA/DISPLAY/DISPLAY.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc DISPLAY.ucf -p xc6slx16-csg324-3 DISPLAY.ngc DISPLAY.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o DISPLAY_map.ncd DISPLAY.ngd DISPLAY.pcf 
+par -w -intstyle ise -ol high -mt off DISPLAY_map.ncd DISPLAY.ncd DISPLAY.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml DISPLAY.twx DISPLAY.ncd -o DISPLAY.twr DISPLAY.pcf -ucf DISPLAY.ucf 
+bitgen -intstyle ise -f DISPLAY.ut DISPLAY.ncd 
